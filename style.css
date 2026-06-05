@@ -1,3 +1,11 @@
+/* Colors
+
+#1F2937 - Dark background
+#F9FAF8 - Main white text
+#E5E7EB - Secondary text
+#3882F6 - Primary blue
+*/
+
 /* =========================
    GLOBAL
    ========================= */
@@ -76,6 +84,7 @@ nav a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 48px;
 }
 
 .hero-content {
@@ -145,34 +154,53 @@ nav a:active {
    QUOTE
    ========================= */
 
-   .quote {
+.quote {
     background-color: #E5E7EB;
     padding: 80px 0;
-   }
-   .quote blockquote {
-        max-width: 800px;
-        margin: 0 auto;
-        font-size: 36px;
-        font-style: italic;
-        font-weight: 300;
-        color: #1F2937;
-        
-        padding: 64px 36px;
-   }
-   .quote cite {
-        display: block;
-        max-width: 800px;
-        margin: 16px auto 0;
-        text-align: right;
-        font-size: 24px;
-        font-weight: 900;
-        text-align: right;
-   }
+}
+.quote blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;    
+    padding: 64px 36px;
+}
+.quote cite {
+    display: block;
+    max-width: 800px;
+    margin: 16px auto 0;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
+}
 
 /* =========================
    CTA
    ========================= */
-
+   .cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:48px;
+    background-color: #5491f2;
+    margin: 80px 240px;
+    border-radius: 16px;
+    color: #f9faf8;
+   }
+    .cta-content h2 {
+    margin: 0;
+    }
+    .cta-content p {
+    color: #E5E7EB;
+    }
+    .sign_up {
+    border: 1px solid #E5E7EB;  
+    background-color: #5491f2;  
+    }
 /* =========================
    FOOTER
    ========================= */
+
+   
