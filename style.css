@@ -4,6 +4,7 @@
 #F9FAF8 - Main white text
 #E5E7EB - Secondary text
 #3882F6 - Primary blue
+
 */
 
 /* =========================
@@ -24,11 +25,12 @@ body {
 }
 
 button {
-    background-color: #3882f6;
-    color: #ffffff;
+    background-color: #3882F6;
+    color: #F9FAF8;
     padding: 8px 16px;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
 }
 
 /* =========================
@@ -36,8 +38,7 @@ button {
    ========================= */
 
 header {
-    background-color: #1f2937;
-    color: white;
+    background-color: #1F2937;
     padding: 32px 80px;
 }
 
@@ -50,7 +51,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #F9FAF8;
 }
 
 nav ul {
@@ -65,7 +66,7 @@ nav a,
 nav a:visited,
 nav a:hover,
 nav a:active {
-    color: #e5e7eb;
+    color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
 }
@@ -75,8 +76,7 @@ nav a:active {
    ========================= */
 
 .hero {
-    background-color: #1f2937;
-    color: white;
+    background-color: #1F2937;
     padding: 32px 80px;
 }
 
@@ -89,7 +89,7 @@ nav a:active {
 
 .hero-content {
     flex: 1;
-    color: #f9faf8;
+    color: #F9FAF8;
 }
 
 .hero-content h1 {
@@ -100,7 +100,7 @@ nav a:active {
 .hero-content p {
     max-width: 500px;
     margin: 16px 0;
-    color: #e5e7eb;
+    color: #E5E7EB;
 }
 
 .hero-image-placeholder {
@@ -109,20 +109,18 @@ nav a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6e747d;
+    background-color: #6E747D;
 }
 
 /* =========================
    INFORMATION
    ========================= */
 
-/* .info {} */
-
 .info h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #1F2937;
     margin: 48px 0;
 }
 
@@ -130,7 +128,9 @@ nav a:active {
     display: flex;
     justify-content: center;
     gap: 48px;
+    margin-bottom: 80px;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -138,16 +138,18 @@ nav a:active {
     text-align: center;
     max-width: 150px;
 }
+
 .illustration {
     width: 150px;
     height: 150px;
-    border: 5px solid #0762f5;
+    border: 5px solid #3882F6;
     border-radius: 16px;
 }
+
 .card p {
+    margin-top: 12px;
     color: #747274;
     font-size: 16px;
-    margin-top: 12px;
 }
 
 /* =========================
@@ -158,15 +160,16 @@ nav a:active {
     background-color: #E5E7EB;
     padding: 80px 0;
 }
+
 .quote blockquote {
     max-width: 800px;
     margin: 0 auto;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1F2937;    
-    padding: 64px 36px;
+    color: #1F2937;
 }
+
 .quote cite {
     display: block;
     max-width: 800px;
@@ -174,33 +177,50 @@ nav a:active {
     text-align: right;
     font-size: 24px;
     font-weight: 900;
+    color: #1F2937;
 }
 
 /* =========================
    CTA
    ========================= */
-   .cta {
+
+.cta {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:48px;
-    background-color: #5491f2;
-    margin: 80px 240px;
+    padding: 48px;
+    background-color: #3882F6;
     border-radius: 16px;
-    color: #f9faf8;
-   }
-    .cta-content h2 {
+    color: #F9FAF8;
+    max-width: 1000px;
+    margin: 80px auto;
+}
+
+.cta-content h2 {
     margin: 0;
-    }
-    .cta-content p {
+}
+
+.cta-content p {
     color: #E5E7EB;
-    }
-    .sign_up {
-    border: 1px solid #E5E7EB;  
-    background-color: #5491f2;  
-    }
+    margin: 8px 0 0;
+}
+
+.sign_up {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+}
+
 /* =========================
    FOOTER
    ========================= */
 
-   
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 24px 16px;
+}
+
+.copyright {
+    margin: 0;
+}
